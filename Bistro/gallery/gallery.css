@@ -1,0 +1,80 @@
+	
+	
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+	html{
+		font-size: 100%;
+	}
+	header{
+		margin-top: 0;
+		padding: 3em 1em 2em 1em;
+		text-align: center;}
+		
+	
+	body{font-family: georgia, serif;
+			line-height: 1.75;
+			background-color: #2f4f4f;
+			color: #faf2ef;
+			margin: 0 15% 0;}
+
+	h1{font: 400 3.5rem "Lobster",verdana, sans-serif;
+		color: orange;
+		text-shadow: .1em .1em .05em #243f3f;
+	text-align: center;}
+
+	h2{font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: .5em;
+		color: turquoise;
+		}
+
+	h2 + p{ text-align: center;
+			font-style: italic;}
+
+	h2, #info{text-align: left;}
+
+	h3{color: orangered;
+		font: 400 1.75rem "Lobster",verdana, sans-serif;
+		text-shadow: .1em .1em .05em #243f3f;}
+
+	dt{ font-weight: bold;
+		color: turquoise;}
+
+	strong{ font-style: italic;}
+
+	dt strong{color: orangered}
+
+	#info{color: turquoise}
+
+	#info p{font-style:italic}
+
+	.price {font-style: italic;
+			color: black;}
+	
+	.label{font-variant: small-caps;
+			font-style: normal;}
+	
+	p.warning, sup{font-size: small;
+			color: #faf2ef;}
+	img{max-width: 100%;
+	height: auto;}
+
+    a{color: #ffffff;}
+
+	.img{transition: .5s;}
+
+	.img:hover{transform: scale(1.1);}
+
+    a:visited{color: turquoise;}
+
+	nav {
+        text-align: center;
+    }      
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        margin: 0 15px;}
