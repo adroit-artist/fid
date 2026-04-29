@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bungee&family=Freckle+Face&family=Lobster&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Freckle+Face&family=Lobster&display=swap');
+
+html{font-size: 100%;}
+
+        body{
+            font: 25px comic;
+            color: #ffffff;
+            background-color: #8bffb2;
+            text-align: center;
+        }
+        header{font: 400 50px "bungee", sans-serif;
+            background-color: #052410;
+            text-align: center;
+            color: #ffffff;
+            word-spacing: 1px;
+            padding: 55px;
+        }
+
+        h1{
+           color: #ffffff;
+            font: 50px comic;
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 30px;
+        }
+        h2{
+            color:#ffffff;
+            font: 400 25px "bricolage grotesque", sans-serif;
+            background-color: #052410;
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        h3{
+            color: #052410;
+            font: 20px comic;
+            text-align: center;
+        }
+        p{
+           text-align: center;
+            background-color: #1b6e3b;
+            border-radius: 100px;
+        }
+        div.skills, div.software{
+            text-align: center;
+
+        }
+        ul.MYul, ul.MYpro{
+            text-align: left;
+            display: inline-block;
+            background-color: #1a5a30;
+            border-radius: 100px;
+            padding: 45px;
+        }
+        hr{
+            border-bottom: 3px double #1b6e3b;
+            border-top: 3px dpuble #1b6e3b ;
+        }
+        .container{
+            background-color: #54995d;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            border-radius: 100px;
+        }
+        div.box{
+            transition: .5s;
+            margin: 0px 10px;
+        }
+        div.box:hover{
+            transform: scale(1.1);
+        }
+        div.content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+         a{color: #ffffff;}
+        a:visited{color: #00ff37;}
